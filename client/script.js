@@ -70,7 +70,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const response = await fetch('http://localhost:5001', {
+  const response = await fetch('https://codexgpt.onrender.com', {
     body: JSON.stringify({ prompt: data.get('prompt') }),
     headers: {
       'Content-type': 'application/json',
