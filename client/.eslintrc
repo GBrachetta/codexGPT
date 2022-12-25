@@ -1,0 +1,7 @@
+{
+  "extends": "@gbrachetta/eslint-config",
+  "rules": {
+    "no-param-reassign": "off",
+    "no-plusplus": "off"
+  }
+}
